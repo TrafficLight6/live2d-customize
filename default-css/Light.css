@@ -1,0 +1,20 @@
+#live2d-main * {
+    float: left;
+    width: 300px;
+}
+
+
+#live2d_tool {
+    width: 300px;
+}
+
+#live2d_tool button {
+    height: 50px;
+    width: 50px;
+    background-color: #ffffff00;
+    backdrop-filter: Blur(20px);
+}
+
+#live2d_tool i {
+    font-size: 30px;
+}
