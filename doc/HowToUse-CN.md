@@ -63,6 +63,7 @@
      *  模型定义
         自定义配置模型，同一数组内放置同个模型的不同皮肤，换肤时按照顺序依次显示
         这里请用相对路径配置
+        及相对应你要引入的html文件
      */
     MODELS: [
         ["model/22/model.default.json", "model/22/model.2016.xmas.1.json", "model/22/model.2016.xmas.2.json", "model/22/model.2017.cba-normal.json", "model/22/model.2017.cba-super.json", "model/22/model.2017.newyear.json", "model/22/model.2017.school.json", "model/22/model.2017.summer.normal.1.json", "model/22/model.2017.summer.normal.2.json", "model/22/model.2017.summer.super.1.json", "model/22/model.2017.summer.super.2.json", "model/22/model.2017.tomo-bukatsu.high.json", "model/22/model.2017.tomo-bukatsu.low.json", "model/22/model.2017.valley.json", "model/22/model.2017.vdays.json", "model/22/model.2018.bls-summer.json", "model/22/model.2018.bls-winter.json", "model/22/model.2018.lover.json", "model/22/model.2018.spring.json"], 
@@ -73,5 +74,7 @@
     };
     ```
 
-
+- ### 函数详解
+    - ```initLive2d(path)```  
+        参数path是指定默认打开模型的路径参数，默认值为"model/22/model.default.json"
 #### 2023年7月12日23:20:02
