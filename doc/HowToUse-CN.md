@@ -37,7 +37,7 @@
     <!-- 在body的id为live2d_main内嵌入以下标签 -->
     <div id="live2d_tool">
     <center>
-        <button id="Change" class="active"><i class="fa fa-users"></i></button>
+    <button id="Change" class="active"><i class="fa fa-users"></i></button>
     <button id="texure" class="active"><i class="fa fa-street-view"></i></button>
     </center>
     </div>

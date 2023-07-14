@@ -1,0 +1,11 @@
+#live2d_tools{
+    float: left;
+}
+
+#live2d_tools p:hover{
+    color: #646363;
+}
+
+#live2d{
+    float: left;
+}
